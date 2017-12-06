@@ -14,8 +14,6 @@
     height:55px;
     line-height:55px;
     margin-bottom: 10px;
-    border-top:1px solid #fe687a;
-    border-bottom: 1px solid #fe687a;
     font-size:18px;
 }
 .pl15{
@@ -34,17 +32,32 @@
     font-size:16px;
     border:1px solid #fe687a;
     border-radius: 10px;
+    padding-right: 7px;
 }
 .info span{
     display: inline-block;
+    border-right: 1px solid #fe687a;
 }
+.info input{
+    display: inline-block;
+    float: right;
+    height:36px;
+    width:85%;
+    background: none;
+    border: none;
+    outline:none
+}
+
 .icon{
     width:32px;
-    height:36px;
-    line-height:36px;
-    background-image: url(./image/xingming.png);
-    background-size:24px 24px;
-    background-repeat:no-repeat;
+    height:38px;
+    line-height:38px;
+    /*background-image: url(./image/xingming.png);*/
+
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    background: url(./image/xingming.png) no-repeat  center ;
+    background-size: 100%;
 }
 .agree{
     margin:33px 30px 0 30px;
@@ -60,5 +73,5 @@
     color:#fff;
     background-color: #fe687a;
     position:fixed;
-    bottom:35px;
+    bottom:0;
 }
